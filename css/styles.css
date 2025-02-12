@@ -2,12 +2,34 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -21,6 +43,13 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container {
+  width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .title {
@@ -38,6 +67,11 @@ a {
 }
 
 /* -------HEADER------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 
 .header-logo {
   font-weight: 700;
@@ -79,7 +113,6 @@ a {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
-  cursor: pointer;
 }
 
 .hero-btn-anchor {
