@@ -73,6 +73,14 @@ address {
   padding-bottom: 32px;
 }
 
+.header-container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -83,6 +91,10 @@ address {
 
 .logo-accent {
   font-style: italic;
+}
+
+.header-menu-list {
+  display: flex;
 }
 
 .header-menu-link {
@@ -97,6 +109,10 @@ address {
 .header-menu-link:focus,
 .header-menu-link:active {
   color: #fd9222;
+}
+
+.header-soc-list {
+  display: flex;
 }
 
 /* -------HERO------- */
