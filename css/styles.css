@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
 }
 
 p,
@@ -286,7 +287,7 @@ img {
   padding-left: 28px;
 }
 
-/* -------MADE------- */
+/* -----------MADE----------- */
 
 .made {
   padding-top: 60px;
@@ -297,7 +298,19 @@ img {
   margin-bottom: 50px;
 }
 
+.made-wrap {
+  display: flex;
+}
+
 .made-image {
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.made-list-wrap {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .made-subtitle {
@@ -321,6 +334,7 @@ img {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+  max-width: 425px;
 }
 
 /* -------PRODUCTS------- */
